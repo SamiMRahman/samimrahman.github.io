@@ -1,1 +1,2 @@
-# SamiMRahman.github.io
+# samirahman.github.io
+personal and professional site
