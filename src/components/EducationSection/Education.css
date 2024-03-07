@@ -1,27 +1,36 @@
-/* EducationSection.css */
-.educationSection {
+/* Education.css */
+
+.Education {
     max-width: 800px;
     margin: auto;
     padding: 20px;
 }
 
-.university {
+.Education-title {
+    /* Your styles for the education section title */
+}
+
+.Education-university {
     margin-bottom: 20px;
 }
 
-.degree {
+.Education-universityName {
+    /* Your styles for the university name */
+}
+
+.Education-degree {
     font-weight: 600;
     color: #333;
 }
 
-.skillsContainer {
+.Education-skillsContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 10px;
 }
 
-.skill {
+.Education-skill {
     padding: 5px 10px;
     background: #f0f0f0;
     border-radius: 5px;
