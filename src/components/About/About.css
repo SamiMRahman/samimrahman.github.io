@@ -1,0 +1,39 @@
+/* About.css */
+
+.About {
+    margin: 0;
+    padding: 20px;
+    /* Adjust padding as needed */
+    background-color: #fff;
+    /* Assuming a white background */
+    color: #333;
+    /* Primary text color */
+    max-width: 600px;
+    /* Adjust based on the screenshot dimensions */
+    margin: auto;
+    /* Centering the section */
+    border-radius: 4px;
+    /* Soft corner edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Slight shadow for depth */
+}
+
+.About-title {
+    margin-bottom: 16px;
+    /* Space below the title */
+    font-size: 24px;
+    /* Large, readable title */
+    font-weight: bold;
+    /* Bold title text */
+    text-align: center;
+    /* Center-align the title */
+}
+
+.About-description {
+    font-size: 16px;
+    /* Standard text size */
+    line-height: 1.6;
+    /* For better readability */
+    text-align: left;
+    /* Align text to the left */
+}
