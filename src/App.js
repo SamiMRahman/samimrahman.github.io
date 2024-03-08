@@ -3,9 +3,9 @@ import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
 import About from './components/About/About';
 import Education from './components/Education/Education';
-import Experience from './components/Experience/Experience';
-import Interests from './components/Interests/Interests';
-import Projects from './components/Projects/Projects';
+// import Experience from './components/Experience/Experience';
+// import Interests from './components/Interests/Interests';
+// import Projects from './components/Projects/Projects';
 import './App.css';
 
 const App = () => {
@@ -31,9 +31,9 @@ const App = () => {
                 <Profile {...profileData} />
                 <About content={aboutData} />
                 <Education schools={educationData} />
-                <Experience jobs={experienceData} />
+                {/* <Experience jobs={experienceData} />
                 <Interests interests={interestsData} />
-                <Projects projects={projectsData} />
+                <Projects projects={projectsData} /> */}
             </main>
         </div>
     );
